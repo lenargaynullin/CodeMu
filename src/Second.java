@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 // №2 Дана строка. Выведите в консоль длину этой строки.
 public class Second {
     public static void main(String[] args) {
