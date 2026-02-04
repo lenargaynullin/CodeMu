@@ -1,6 +1,8 @@
+import java.util.concurrent.TimeUnit;
+
 public class Main {
-    public static void main(String[] args) {
-        Calculator calculator = new Calculator();
-        System.out.println(calculator.sum(2,3));
+    public static void main(String[] args) throws InterruptedException {
+        Timer timer = new Timer(25,0);
+        timer.start();
     }
 }
