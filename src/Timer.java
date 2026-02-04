@@ -6,10 +6,7 @@ public class Timer {
     private int minutes;
 
     // Конструктор
-    public Timer(int minutes, int seconds) {
-        this.minutes = minutes;
-        this.seconds = seconds;
-    }
+
 
     // Геттеры, сеттеры
     public void setSeconds(int seconds) {
